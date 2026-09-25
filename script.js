@@ -8,6 +8,6 @@ function daysOfAYear (year){
 		return 365;
 	}
 }
-const no_of_days = daysOfAYear(year);
-console.log(no_of_days);
+const year = prompt("Enter year here");
+alert(daysOfAYear(year));
 
